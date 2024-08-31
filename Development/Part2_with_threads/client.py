@@ -5,7 +5,6 @@ import time
 import threading
 
 def dump_to_json(data, filename):
-    """Dump tuple data to JSON file in append mode"""
     with open(filename, 'a') as f:
         json.dump(data, f,indent=4)
         f.write('\n')  
