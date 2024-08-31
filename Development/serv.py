@@ -4,8 +4,8 @@ import google.generativeai as genai
 
 s = socket.socket()
 #print('Server created')
-
-api_key = "AIzaSyCiuFhLEgiX2KP3GypwKIVdBIxcOs8Embc"
+#I have kept my API_KEY as an environment variable so anyone downloading this code will have to do the same or paste their API KEY below for it to work
+api_key = "API_KEY"
 genai.configure(api_key = api_key)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
