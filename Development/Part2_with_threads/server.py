@@ -28,7 +28,7 @@ def handleclient(c, addr):
     my_tuple = (final_response,prompti)
     encoded_tuple = pickle.dumps(my_tuple)
 
-    # Send the encoded tuple to the client
+    #remember we have to send it as encoded cuz all these comms are only in byte streams
     c.sendall(encoded_tuple)
 
     c.close()
