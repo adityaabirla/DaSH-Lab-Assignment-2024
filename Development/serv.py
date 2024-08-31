@@ -7,7 +7,6 @@ s = socket.socket()
 
 api_key = "AIzaSyCiuFhLEgiX2KP3GypwKIVdBIxcOs8Embc"
 genai.configure(api_key = api_key)
-# Create a model instance
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 s.bind(('localhost',44534))
