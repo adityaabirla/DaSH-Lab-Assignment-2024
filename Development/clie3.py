@@ -32,7 +32,7 @@ result = {
     "TimeSent":start_time,
     "TimeRecvd":end_time,
     "Source":"Google Generative AI",
-    "ClientID":1
+    "ClientID":3
 }
 dump_to_json(result, filename)
 
