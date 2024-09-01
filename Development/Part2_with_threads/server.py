@@ -6,7 +6,7 @@ import threading
 s = socket.socket()
 #print('Server created')
 
-api_key = "AIzaSyCiuFhLEgiX2KP3GypwKIVdBIxcOs8Embc"
+api_key = "api_key"
 genai.configure(api_key = api_key)
 
 model = genai.GenerativeModel('gemini-1.5-flash')
